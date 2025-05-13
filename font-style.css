@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(./Font/Poppins-Medium.ttf) format("truetype");
+}
+html {
+    font-family: "Poppins";
+}
