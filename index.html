@@ -10,43 +10,45 @@
 </head>
 <body>
     <header class="header-section">
-        <nav>
-            <div class="logo-section">
-                <img src="./Files/circle-notch-solid.svg" alt="Logo">
-                <span>Untitled UI</span>
-            </div>
-            <div class="main-menu">
-                <ul>
-                    <li class="button"><a href="#">Home</a></li>
-                    <li class="button"><a href="#">Products</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
-                    <li class="button"><a href="#">Solutions</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
-                    <li class="button"><a href="#">Pricing</a></li>
-                    <li class="button"><a href="#">Resources</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
-                    <li class="button"><a href="#">Company</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
-                    <li class="button"><a href="#">Careers</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
-                </ul>
-            </div>
-            <div class="action-buttons">
-                <a class="button" href="https://roocket.ir/">Get Started</a>
-            </div>
-        </nav>
-        <section>
-            <div class="blog">
-                <h3>Blog</h3>
-                <p>The Journal:Design Resources,<br>Interviews,and Industry News</p>
-            </div>
-            <aside>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque qui voluptatum tempore rem aperiam quaerat placeat dolor ad doloremque assumenda, nulla magnam deserunt. Tenetur natus voluptatibus, sequi iure facere ad!</p>
-            </aside>
-            <div class="search-box">
-                <form action="#">
-                    <input type="email" id="email" name="email" placeholder="Enter your email">
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
-        </section>
+        <div class="container">
+            <nav>
+                <div class="logo-section">
+                    <img src="./Files/circle-notch-solid.svg" alt="Logo">
+                    <span>Untitled UI</span>
+                </div>
+                <div class="main-menu">
+                    <ul>
+                        <li class="button"><a href="#">Home</a></li>
+                        <li class="button"><a href="#">Products</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
+                        <li class="button"><a href="#">Solutions</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
+                        <li class="button"><a href="#">Pricing</a></li>
+                        <li class="button"><a href="#">Resources</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
+                        <li class="button"><a href="#">Company</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
+                        <li class="button"><a href="#">Careers</a><img src="./Files/chevron-up-solid.svg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="action-buttons">
+                    <a class="button" href="https://roocket.ir/">Get Started</a>
+                </div>
+            </nav>
+            <section class="detail">
+                <div class="blog">
+                    <h3>Blog</h3>
+                    <p>The Journal:Design Resources,<br>Interviews,and Industry News</p>
+                </div>
+                <aside>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque qui voluptatum tempore rem aperiam quaerat.</p>
+                </aside>
+                <div class="search-box">
+                    <form action="#">
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </div>
     </header>
-    <article>
+    <section class="main-content container">
         <div class="main-project">
             <a href="#"><img src="./Files/download.jpg" alt="Convesations"></a>
             <p class="title-project">Convesations wish Our Favorite Lpndon Studio,Makr & Co</p>
@@ -153,8 +155,8 @@
                 <li class="box-project"><a href="#">Research</a></li>
             </ul>
         </div>
-    </article>
-    <div class="taskbar">
+    </section>
+    <div class="taskbar container">
         <div>
             <a href="https://roocket.ir/"><img class="rotate" src="./Files/arrow-right-solid.svg" alt="arrow-right-solid">Previous</a>
             <h3>Page 1 of 12</h3>
@@ -162,7 +164,8 @@
         </div>
     </div>
     <footer>
-        <div class="top-footer">
+        <div class="container">
+            <div class="top-footer">
             <h2>Ready to level up your business?</h2>
             <br>
             <p>Start your 30-day free trial.Cancel anytime.</p>
@@ -177,7 +180,7 @@
 
                 <h3><img src="./Files/circle-notch-solid.svg" alt="icon">Untitled UI</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod repellendus recusandae cupiditate quas officia dicta delectus autem maiores iusto debitis fugit illo optio mollitia ab id magni, quae distinctio?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus. </p>
                 <ul>
                     <li><a href="https://roocket.ir/">Overview</a></li>
                     <li><a href="https://roocket.ir/">Features</a></li>
@@ -204,6 +207,7 @@
                 <a href="#"><img src="./Files/github-brands-.svg" alt="GitHub"></a>
                 <a href="#"><img src="./Files/dribbble-brands-solid.svg" alt="Dribbble"></a>
             </div>
+        </div>
         </div>
     </footer>
 
